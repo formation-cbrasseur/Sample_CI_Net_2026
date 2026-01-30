@@ -5,11 +5,11 @@ namespace DateValidatorProject.UnitTests
     [TestClass]
     public sealed class DateValidatorTests
     {
-        // [TestMethod]
-        // public void Failed_Test_ForCIPurpose()
-        // {
-        //     Assert.AreEqual("A", "B");
-        // }
+        [TestMethod]
+        public void Failed_Test_ForCIPurpose()
+        {
+            Assert.AreEqual("A", "B");
+        }
 
         [TestMethod]
         [DataRow(null)]
