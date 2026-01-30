@@ -6,6 +6,12 @@ namespace DateValidatorProject.UnitTests
     public sealed class DateValidatorTests
     {
         [TestMethod]
+        public void Failed_Test_ForCIPurpose()
+        {
+            Assert.AreEqual("A", "B");
+        }
+
+        [TestMethod]
         [DataRow(null)]
         [DataRow("")]
         public void CheckNumberOfDashes_WithNullOrEmptyString_ShouldThrowArgumentException(string date)
